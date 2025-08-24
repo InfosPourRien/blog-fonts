@@ -55,9 +55,9 @@
   font-family: 'BellofattoRemake', sans-serif !important;
 }
 
-/* Titres des articles */
-h2.post-title, .entry-title, .post-title {
-  font-family: 'BellofattoRemake', sans-serif !important;
+/* Articles */
+.post-title, .entry-title, .post-body, .entry-content {
+  font-family: 'FuturaCanal-Demi', Arial, sans-serif !important;
 }
 
 /* Corps du texte */
@@ -71,4 +71,5 @@ h3, h4, h5, h6 {
   font-family: 'FuturaCanal', Arial, sans-serif !important;
   font-weight: 500; /* Demi */
 }
+
 
