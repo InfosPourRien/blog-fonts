@@ -1,0 +1,100 @@
+/* ==============================
+   Déclarations des polices
+   ============================== */
+
+/* MOI JE / BellofattoRemake */
+@font-face {
+  font-family: 'BellofattoRemake';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/BellofattoRemake.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/BellofattoRemake.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Futura Canal+ Light */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Light.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Futura Canal+ Light Italique */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-LightItalique.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-LightItalique.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Futura Canal+ Demi */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Demi.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Demi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Futura Canal+ Demi Italique */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-DemiItalique.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-DemiItalique.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Futura Canal+ Bold */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Bold.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Futura Canal+ Bold Italique */
+@font-face {
+  font-family: 'FuturaCanal';
+  src: url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-BoldItalique.woff2') format('woff2'),
+       url('https://tonpseudo.github.io/mes-polices-blog/fonts/FuturaCanal-BoldItalique.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ==============================
+   Application dans Blogger
+   ============================== */
+
+/* Titre du blog */
+.header h1, .blog-title {
+  font-family: 'BellofattoRemake', sans-serif;
+  font-weight: normal;
+}
+
+/* Titres des articles */
+h1, h2, .post-title {
+  font-family: 'BellofattoRemake', sans-serif;
+  font-weight: normal;
+}
+
+/* Texte principal */
+body, p, .post-body {
+  font-family: 'FuturaCanal', Arial, sans-serif;
+  font-weight: 300; /* par défaut Light */
+}
+
+/* Mettre en gras */
+strong, b {
+  font-family: 'FuturaCanal', Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Mettre en italique */
+em, i {
+  font-family: 'FuturaCanal', Arial, sans-serif;
+  font-style: italic;
+}
